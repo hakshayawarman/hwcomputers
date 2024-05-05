@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles_feedback.css">
+    <title>FEEDBACK</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h3>CUSTOMER FEEDBACK</h3>
+        <form action="#">
+            <div class="rating">
+                <input type="number" name="rating" hidden>
+                <i class='bx bx-star star' style="--i: 0;"></i>
+                <i class='bx bx-star star' style="--i: 1;"></i>
+                <i class='bx bx-star star' style="--i: 2;"></i>
+                <i class='bx bx-star star' style="--i: 3;"></i>
+                <i class='bx bx-star star' style="--i: 4;"></i>
+            </div>
+            <textarea name="opinion" cols="30" rows="5" placeholder="Your opinion..."></textarea>
+            <div class="btn-group">
+                <button type="submit" class="btn submit">Submit</button>
+                <button class="btn cancel">Cancel</button>
+            </div>
+        </form>
+        <div id="successMessage" style="display: none;">Feedback submitted successfully!</div>
+        <div id="feedbackContainer"></div> 
+    </div>
+    <script src="script_feedback.js"></script>
+</body>
+</html>

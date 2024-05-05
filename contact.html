@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CONTACT US</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles_contact.css">
+</head>
+<body>
+    <section class="contact">
+        <div class="content">
+            <h2>CONTACT US</h2>
+            <p>Welcome to our Contact Us page! We're delighted that you're here. Whether you have questions, feedback, or simply want to say hello, we're eager to hear from you. Feel free to reach out via the information provided below or use the form to send us a message directly. We look forward to connecting with you!</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>ADDRESS</h3>
+                        <p>32065 PERADENIYA ROAD,<BR>KANDY,<BR>SRILANKA.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>PHONE</h3>
+                        <p>0789210893</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>EMAIL</h3>
+                        <p>vikingking32@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form id="contactForm">
+                    <h2>Send messages</h2>
+                    <div class="inputBox">
+                        <input type="text" name="fullName" id="fullName" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" name="email" id="email" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea name="message" id="message" required="required"></textarea>
+                        <span>Type Your Message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+            <div class="confirmation-message" style="display: none;"></div>
+        </div>
+        <div id="output"></div>
+    </section>
+
+    <script src="script_contact.js"></script>
+</body>
+</html>
